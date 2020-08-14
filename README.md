@@ -7,6 +7,8 @@ Uses the following technologies:
 - Node.js
 - MySQL
 - Sequelize
+- Aws
+- Terraform (code infrastructure)
 
 ## Setup
 
@@ -25,7 +27,7 @@ yarn watch
 2. Go to Iam -> user -> add-user -> give it adminstration permission
 3. you should be provided with a AWS_ACCESS_KEY_ID, AWS_ACCESS_SECRET_KEY Copy Paste
 
-4. within listing service, api-gateway , user-service copy paste the code into env and remove the .example within the files name
+4. within listing service, api-gateway , user-service copy aws_access_key_id and aws_access_secret_key and paste it within the variables of the .env for all those directories and remove the .example within the files name otherwise u'd get an error
 
 5. within terraform create a .key file and a .pem file
 
